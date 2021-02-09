@@ -33,6 +33,9 @@ const App: React.FC<Props> = ({ isBootstrapped, bootstrapApp }) => {
     }
   });
 
+
+  console.log('testing');
+
   return (
     <Switch>
       <PrivateRoute exact path={"/(public|contacts|personal)?"}>
